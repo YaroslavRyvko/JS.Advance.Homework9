@@ -1,0 +1,28 @@
+p {
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.btn-danger,
+.btn-warning {
+    margin-top: 0px;
+}
+
+.box {
+    margin: 44px auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 47%;
+}
+
+.table {
+    width: 47%;
+    line-height: 40px;
+}

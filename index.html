@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="container">
+            <form name="f1">
+                <p>Login</p>
+                <input type="text" class="form-control" placeholder="Enter login" name="login">
+                <p>Password</p>
+                <input type="text" class="form-control" placeholder="Enter password" name="password"> 
+                <p>Email address</p>
+                <input type="text" class="form-control" placeholder="Enter email" name="email">
+                <input type="button" class="btn btn-outline-success" value="Add User" name="addBtn">
+                <input type="button" class="btn btn-outline-success" value="Edit User" name="saveBtn" style="display: none;">
+
+            </form>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Login</th>
+                    <th scope="col">Password</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Edit</th>
+                    <th scope="col">Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
